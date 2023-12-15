@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(196, 228, 228);
+    /* box-sizing: border-box; */
+    font-family: sans-serif;
+    /* background-image: url("image/backImg_.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8; */
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(81, 78, 83);
+  }
+
+  #container {
+    width: 19rem;
+    background-color: rgba(76, 67, 67, 0.815);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    margin: 2.5rem auto;
+    text-align: center;
+  }
+
+  #display {
+    height: 2.5rem;
+    width: 85%;
+    margin: 10px auto 35px;
+    background-color: transparent;
+    border: 3px solid rgb(181, 181, 181);
+    box-shadow: 0px 0px 10px 5px rgba(67, 62, 62, 0.2);
+    /* border: none; */
+    border-radius: 10px;
+    text-align: right;
+    font-size: 2rem;
+    padding: 1rem 0.5rem;
+    /* color: rgb(244, 153, 34); */
+    color: rgb(238, 238, 238);
+  }
+
+  input[type="text"]::placeholder{
+    /* color: rgb(244, 153, 34); */
+    color: rgb(238, 238, 238);
+  }
+
+  button {
+    height: 3.8rem;
+    width: 3.8rem;
+    margin: 0.3rem;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    border: none;
+    /* border: 1px solid rgb(238, 238, 238); */
+  }
+
+  .number {
+    color: rgb(105, 97, 97);
+  }
+
+  .operator {
+    color: rgb(244, 153, 34);
+  }
+
+  button:hover {
+    background-color: rgb(202, 202, 202);
+  }
+
+  .Equal {
+    background-color: rgb(244, 153, 34);
+    font-size: 1.8rem;
+    color: aliceblue;
+  }
+
+  .Equal:hover {
+    background-color: rgb(244, 153, 34);
+    transform: scale(.95);
+    transition: ease-in-out 0.25s;
+  }
+
+
+  #name {
+    font-family: cursive;
+    text-align: center;
+    font-weight: 550;
+    color: #5276f9;
+  }
